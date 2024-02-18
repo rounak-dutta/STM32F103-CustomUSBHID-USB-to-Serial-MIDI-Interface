@@ -2,7 +2,7 @@
 In this project a very basic USB to Serial MIDI Interface is built with STM32F103C8T6 board, with USB Custom-HID Middleware implementation in STM CubeIDE environment.
 
 
-**Notes:** Before going through the project and/ or trying to implement the project, I would request the viewer to go through the following drawbacks or limitations of the peoject, as follows:
+**Notes:** Before going through the project and/ or trying to implement the project, I would request the viewer to go through **the following drawbacks or limitations of the project,** as follows:
 
   i. I currently do not own any MIDI instruments which support serial-MIDI, so I tested by connecting the uC TX-pin to the RX-pin with a piece of wire (i.e., loopback test), and sent MIDI data from DAW to the uC and back into the DAW to a virtual instrument, and it is able to relay most of the MIDI data. But in faster paced sections of the MIDI-song, there are few lost-notes/ lost-MIDI-data, thus the USB 2 Serial conversion is not 100% lossless, atleast in the loop-back test.
   
