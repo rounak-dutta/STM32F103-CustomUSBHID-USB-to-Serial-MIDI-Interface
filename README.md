@@ -11,6 +11,14 @@ In this project a very basic USB to Serial MIDI Interface is built with STM32F10
   iii. In this implementation, I have only considered the 3-byte MIDI messages, which generally covers the Note-On, Note-Off, Sustain Pedal, Pitch-Bend, etc., i.e., the most common types of MIDI-messages. The 2-bytes, 1-byte and SysEx MIDI messages hadling is not implemented. 
 
 
+**References:**
+1. https://www.usb.org/sites/default/files/midi10.pdf
+2. https://www.youtube.com/watch?v=3JGRt3BFYrM
+3. https://www.youtube.com/watch?v=740XGkC0DfQ
+4. https://learn.sparkfun.com/tutorials/midi-tutorial/all#shortcomings
+5. https://www.cs.cmu.edu/~music/cmsip/readings/davids-midi-spec.htm
+6. https://github.com/Hypnotriod/midi-box-stm32/blob/master/MDK-ARM/startup_stm32f103xb.s
+
 
 **The steps to implement Custom-HID USB-MIDI for STM32 in CubeIDE, is as follows:**
 1. Launch the STM CubeIDE and select uC stm32f103c8t6.
