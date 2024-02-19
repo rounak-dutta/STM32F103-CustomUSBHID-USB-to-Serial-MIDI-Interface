@@ -1,6 +1,7 @@
 # STM32F103-CustomUSBHID-USB-to-Serial-MIDI-Interface
 In this project a very basic USB to Serial MIDI Interface is built with STM32F103C8T6 board, with USB Custom-HID Middleware implementation in STM CubeIDE environment.
 
+Youtube Video with Demo and Explanantion of the Code: https://www.youtube.com/watch?v=NXoqsiw93NM
 
 **Notes:** Before going through the project and/ or trying to implement the project, I would request the viewer to go through **the following drawbacks or limitations of the project,** as follows:
 
